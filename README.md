@@ -20,6 +20,7 @@ API для сборки видео из обработанных кадров. �
 - PostgreSQL
 - RabbitMQ
 - YOLO (You Only Look Once)
+- OpenCV (with cuda support)
 
 ## Установка и Запуск
 
