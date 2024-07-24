@@ -19,7 +19,7 @@ db_pool = None  # Глобальная переменная для пула по
 # Подключение к PostgreSQL
 async def init_db():
     global db_pool
-    db_pool = await asyncpg.create_pool(dsn='postgresql://postgres:vanilinn@localhost:5432')
+    db_pool = await asyncpg.create_pool(dsn='postgresql://username:password@localhost:5432')
 
 
 # Функция для обработки сообщений из очереди
