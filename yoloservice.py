@@ -92,7 +92,7 @@ async def send_post_request(api_url, data):
 async def startup_event():
     await init_db()
     try:
-        connection = await connect_robust('amqp://events:events@queue.saferegion.net/')
+        connection = await connect_robust('amqp://username:password@host/')
         channel = await connection.channel()
         queue = await channel.declare_queue(queue_name, durable=True)
         await queue.consume(on_message)
