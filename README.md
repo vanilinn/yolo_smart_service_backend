@@ -22,10 +22,3 @@ API для сборки видео из обработанных кадров. �
 - YOLO (You Only Look Once)
 - OpenCV (with cuda support)
 
-## Установка и Запуск
-
-### 1. Клонирование Репозитория
-
-```bash
-git clone https://github.com/yourusername/yourrepository.git
-cd yourrepository
